@@ -1,0 +1,17 @@
+name: "Conviso"
+description: "Scan your applications for vulnerabilities using Conviso AST"
+author: "Daniel Arenas"
+branding:
+  icon: "activity"
+  color: "blue"
+inputs:
+  args:
+    description: "Additional arguments to set"
+    default: ""
+runs:
+  using: "docker"
+  image: "docker://convisoappsec/convisocli:latest"
+  args:
+  - conviso
+  - ast
+  - ${{ inputs.args }} 
