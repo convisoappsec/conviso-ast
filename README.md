@@ -1,6 +1,6 @@
 # Conviso AST
 Run Conviso AST in your repository and assess the results in Conviso Platform.
-More information [here](https://docs.convisoappsec.com/cli/ast)
+More information [here](https://docs.convisoappsec.com/conviso-ast/)
 
 ## Usage
 
