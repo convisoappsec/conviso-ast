@@ -1,4 +1,4 @@
-name: "Conviso"
+name: "Conviso AST"
 description: "Scan your applications for vulnerabilities using Conviso AST"
 author: "Daniel Arenas"
 branding:
