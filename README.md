@@ -13,7 +13,9 @@ jobs:
   conviso-ast:
     runs-on: ubuntu-latest
     steps:
-      - uses: convisoappsec/conviso-ast@v1
+      - uses: actions/checkout@v3
+      - name: Running Conviso AST
+        uses: convisoappsec/conviso-ast@master
         env:
           CONVISO_API_KEY: '${{ secrets.CONVISO_API_KEY }}'
         with:
