@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Running Conviso AST
-        uses: convisoappsec/conviso-ast@master
+        uses: convisoappsec/conviso-ast@main
         env:
           CONVISO_API_KEY: '${{ secrets.CONVISO_API_KEY }}'
         with:
