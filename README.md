@@ -13,11 +13,11 @@ jobs:
   conviso-ast:
     runs-on: ubuntu-latest
     steps:
-      uses: convisoappsec/conviso-ast@v1
-      env:
-        CONVISO_API_KEY: '${{ secrets.CONVISO_API_KEY }}'
-      with:
-        args: ''
+      - uses: convisoappsec/conviso-ast@v1
+        env:
+          CONVISO_API_KEY: '${{ secrets.CONVISO_API_KEY }}'
+        with:
+          args: ''
 ```
 
 ----
