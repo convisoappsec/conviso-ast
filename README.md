@@ -7,17 +7,17 @@ More information [here](https://docs.convisoappsec.com/cli/ast)
 > ##### This action requires [Conviso AST Action](https://github.com/marketplace/actions/conviso-ast)
 
 ```yaml
--   name: Conviso AST
-    on: push
-    jobs: 
-        conviso-ast:
-            runs-on: ubuntu-latest
-            steps: 
-                uses: convisoappsec/conviso-ast@v1
-                env:
-                    CONVISO_API_KEY: ${{ secrets.CONVISO_API_KEY }}
-                with:
-                    args: ""
+name: Conviso AST
+on: push
+jobs:
+  conviso-ast:
+    runs-on: ubuntu-latest
+    steps:
+      uses: convisoappsec/conviso-ast@v1
+      env:
+        CONVISO_API_KEY: '${{ secrets.CONVISO_API_KEY }}'
+      with:
+        args: ''
 ```
 
 ----
