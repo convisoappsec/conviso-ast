@@ -25,7 +25,7 @@ jobs:
 ----
 
 ### Environment variables
-- `CONVIO_API_KEY` (required) - Conviso API Key 
+- `CONVISO_API_KEY` (required) - Conviso API Key 
 
 ### Inputs
 - `args` (optional) - Additional arguments to set
